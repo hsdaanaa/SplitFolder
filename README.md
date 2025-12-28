@@ -1,17 +1,17 @@
-# SplitFolder [Development]
+## SplitFolder [Development]
 Storing a great many files (e.g., 10,000 files or above) in a single folder can slow down computer performance dramatically in many respects
 (e.g., file indexing) and can be risky. SplitFolder addresses this issue by creating dividing an input folder into subfolders.
 
-## Required data
+### Required data
     A folder containing one or more files
-## Output data
+### Output data
     Subfolders of the input folder.
     A log file containing user arguments and processing information.
-## Process overview
+### Process overview
 
-## How to run
+### How to run
 
-## Program folder structure
+### Program folder structure
 
-## Dependencies 
+### Dependencies 
 Python ≥3.x
