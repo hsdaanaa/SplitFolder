@@ -1,0 +1,3 @@
+# files: 2
+fasta04.aln
+fasta05.aln
