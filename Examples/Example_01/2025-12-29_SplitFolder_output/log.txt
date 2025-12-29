@@ -1,0 +1,35 @@
+----------------------------------------
+SplitFolder v0.0.2 (Hassan S. A. Daanaa)
+----------------------------------------
+Start time                      : Mon Dec 29 16:01:44 2025
+Path to input folder            : ./Examples/Example_01/10_input
+Output subfolder count          : 4
+Path to output folder           : ./Examples/Example_01
+Extension names for processing  : ['aln']
+Verbose                         : 1
+
+====================Process Start======================
+Data type and values successfully passed initial checks
+Input file count: 5
+Approx. files count per output subfolder: 1
+---------Start of copying-----------
+Count of files being added to output subfolder: 1
+Out subfolder name: ./Examples/Example_01/2025-12-29_SplitFolder_output/pt01_10_input
+Remaining file num: 4
+---------------------------
+Count of files being added to output subfolder: 1
+Out subfolder name: ./Examples/Example_01/2025-12-29_SplitFolder_output/pt02_10_input
+Remaining file num: 3
+---------------------------
+Count of files being added to output subfolder: 1
+Out subfolder name: ./Examples/Example_01/2025-12-29_SplitFolder_output/pt03_10_input
+Remaining file num: 2
+---------------------------
+Count of files being added to output subfolder: 1
+Out subfolder name: ./Examples/Example_01/2025-12-29_SplitFolder_output/pt04_10_input
+Remaining file num: 1
+---------------------------
+files adding to last output subfolder: 1
+---------End of copying-----------
+====================Process End======================
+Elapsed time: ~0.000251 minutes
