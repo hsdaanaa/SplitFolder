@@ -11,7 +11,7 @@ import sys
 import os
 import time
 import shutil
-import pandas as pd
+import pandas as pd # type: ignore
 from utils import get_f_pathlist_from_folder, make_new_folder, write_flist_for_folder, get_current_date, copy_files_to_folder
 #============================================Main==========================================
 def splitfolder(path_to_input_folder,
