@@ -1,2 +1,0 @@
-# files: 1
-fasta02.aln
