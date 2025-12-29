@@ -32,7 +32,7 @@ def splitfolder(path_to_input_folder,
         path to the output directory
     file_suffix: str
         extension name of the files
-    verbose: int 0, 1
+    verbose: int 0, 1 
         set to 1 for debugging outputs
         
     return
