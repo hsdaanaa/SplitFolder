@@ -65,7 +65,7 @@ def splitfolder(path_to_input_folder,
         1 if process completed successfully, -1 otherwise
     """
 
-    # 1) Record time
+    # 1) Record time 
     func_start  = time.time()
     
     # 2) Check argument data type and value
