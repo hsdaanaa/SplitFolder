@@ -1,6 +1,7 @@
 ## SplitFolder 
-Storing a great many files (e.g., 10,000 files or above) in a single folder can slow down computer performance dramatically in many respects
-(e.g., file indexing) and can be risky. SplitFolder addresses this issue by creating dividing an input folder into subfolders.
+Storing many files (e.g., 10,000 files or above) in a single folder can slow down computer performance dramatically in many respects
+(e.g., file indexing). SplitFolder attempts to address this issue by dividing an input folder into subfolders (files are copied rather 
+than moved)
 
 ### Required data
     A folder containing one or more files.
@@ -40,6 +41,10 @@ Storing a great many files (e.g., 10,000 files or above) in a single folder can 
                 
     # verbose: Flag for whether to output information to screen. 1 (recommended)
 
+### Notes 
+    - Please do not name files in the input folder "00_filelist.txt". This name is reserved for 
+      the file list created in each output subfolder.
+
 ### Program folder structure
     >SplitFolder
         >src # source code
@@ -48,9 +53,5 @@ Storing a great many files (e.g., 10,000 files or above) in a single folder can 
         README.md
 
 ### Dependencies 
-    Python ≥3.x
-    pandas ≥1.1.3
-
-### Notes 
-    - Please do not name files in the input folder "00_filelist.txt". This name is reserved for 
-      the file list created in each output subfolder.
+    python≥3.x
+    pandas≥1.1.3
